@@ -1,0 +1,150 @@
+/*
+Autor: Nirushaan Sureshkumar
+Date: 04.10.18
+Beschreibung: Fussballseite
+Version: 1.0.0
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #3480f9;
+	font-size: 16px;
+}
+
+
+/* Container */
+
+#hauptcontainer{
+	width: 960px;
+	height: auto;
+	overflow: auto;
+	margin: 5px auto;
+}
+
+#titelcontainer{
+	width: 960px;
+	height: 250px;
+	background-color: #fff;
+}
+
+#navigation{
+	width: 960px;
+	height: 40px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+
+#news{
+	width: 180px;
+	height: 245px;
+	background-color: #fff;
+	float: left;
+	margin-top: 10px;
+	border: 1px solid red;
+	padding: 3px;
+}
+
+#inhalt{
+	width: 738px;
+	height: 398px;
+	background-color: #fff;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	border: 
+}
+
+#fusszeile{
+	background-color: #304bff;
+	clear: left;
+	height: 23px;
+	width: 958px;
+	overflow: auto;
+	border: 1px solid #000; 
+}
+
+
+/* Bilder */
+
+#titelcontainer img{
+	border: 1px solid #000;
+}
+
+
+
+
+/* Überschriften */
+
+#titelcontainer h1{
+	font-size: 3em;
+	padding-top: 5px;
+}
+
+#news h2{
+	font-size: 1.5em;
+	color: red;
+}
+
+#bildverein{
+	float: left;
+}
+	
+#news h
+
+/* Absätze */
+
+#news p{
+	font-size: 1em;
+}
+
+#fusszeile p{
+	color: #fff;
+	margin-top: 3px;
+}
+#verein{
+	float: left;
+}
+
+
+/* Navigation */
+
+#navigation ul{
+	list-style-type: none;
+}
+
+#navigation li{
+	float: left;
+}
+
+#navigation a{
+	display: block;
+	width: 190px;
+	border: 1px solid red;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 10.5px;
+	padding-bottom: 10.5px;
+	color: red;
+	font-weight: bold;
+}
+
+#navigation a:hover{
+	background-color: red;
+	color: #fff;
+}
+#navigation a.active{
+	background-color: red;
+	color: #fff;
+}
+	
+	
+
+
+
